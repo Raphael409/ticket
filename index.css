@@ -9,3 +9,24 @@
 h2 {
   color: rgb(218, 89, 15);
 }
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 5px 20px;
+}
+
+.align {
+  text-align: Center;
+  color: rgb(218, 89, 15);
+}
+
+button {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+#button {
+  margin: 10px 50px;
+}

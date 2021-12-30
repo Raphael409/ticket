@@ -2,407 +2,383 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="/index.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT serveries ticket</title>
 </head>
+<title>IT serveries ticket</title>
 
 <body>
     <div class="mainpage">
-        <style>
-            table,
-            th,
-            td {
-                border: 2px solid black;
-                border-collapse: collapse;
-                padding: 5px 20px;
-            }
-
-            .align {
-                text-align: Center;
-                color: rgb(218, 89, 15);
-            }
-
-            button {
-                padding: 10px 20px;
-                text-align: center;
-            }
-
-            #button {
-                margin: 10px 50px;
-            }
-        </style>
-        <title>IT serveries ticket</title>
-
-        <body>
 
 
-            <div class="align">
-                <h1>IT serveries ticket</h1>
-            </div>
+        <div class="align">
+            <h1>IT serveries ticket</h1>
+        </div>
 
 
-            <div class="cells">
-                <table align="Center">
-                    <tr>
-                        <td><b>Ticket ID</b> </td>
-                        <td><b>Subject</b> </td>
-                        <td><b>Category</b> </td>
-                        <td><b>Assignee</b> </td>
-                        <td><b>Priority</b> </td>
-                        <td><b>Status</b> </td>
-                        <td><b>Comment</b> </td>
-                    </tr>
+        <div class="cells">
+            <table align="Center">
+                <tr>
+                    <td><b>Ticket ID</b> </td>
+                    <td><b>Subject</b> </td>
+                    <td><b>Category</b> </td>
+                    <td><b>Assignee</b> </td>
+                    <td><b>Priority</b> </td>
+                    <td><b>Status</b> </td>
+                    <td><b>Comment</b> </td>
+                </tr>
 
-                    <tr>
-                        <td>
-                            <div id="id">1</div>
-                        </td>
-                        <td>
-                            <div id="subject">Subject</div>
-                        </td>
-                        <td>
-                            <div id="category">Category</div>
-                        </td>
-                        <td>
-                            <div id="assignee">Assignee</div>
-                        </td>
-                        <td>
-                            <div id="priority">Priority</div>
-                        </td>
-                        <td>
-                            <div id="status">Status</div>
-                        </td>
-                        <td>
-                            <div id="comment"></div>
-                        </td>
-                        <td>
-                            <button>Edit</button>
-                        </td>
-                        <td>
-                            <button>Delete</button>
-                        </td>
-                    </tr>
-
-
-                    <tr>
-                        <td>
-                            <div id="id">2</div>
-                        </td>
-                        <td>
-                            <div id="subject">Subject</div>
-                        </td>
-                        <td>
-                            <div id="category">Category</div>
-                        </td>
-                        <td>
-                            <div id="assignee">Assignee</div>
-                        </td>
-                        <td>
-                            <div id="priority">Priority</div>
-                        </td>
-                        <td>
-                            <div id="status">Status</div>
-                        </td>
-                        <td>
-                            <div id="comment"></div>
-                        </td>
-                        <td>
-                            <button>Edit</button>
-                        </td>
-                        <td>
-                            <button>Delete</button>
-                        </td>
-                    </tr>
+                <tr>
+                    <td>
+                        <div id="id">1</div>
+                    </td>
+                    <td>
+                        <div id="subject">Subject</div>
+                    </td>
+                    <td>
+                        <div id="category">Category</div>
+                    </td>
+                    <td>
+                        <div id="assignee">Assignee</div>
+                    </td>
+                    <td>
+                        <div id="priority">Priority</div>
+                    </td>
+                    <td>
+                        <div id="status">Status</div>
+                    </td>
+                    <td>
+                        <div id="comment"></div>
+                    </td>
+                    <td>
+                        <button onclick="edit()">Edit</button>
+                    </td>
+                    <td>
+                        <button onclick="remove()">Delete</button>
+                    </td>
+                </tr>
 
 
-                    <tr>
-                        <td>
-                            <div id="id">3</div>
-                        </td>
-                        <td>
-                            <div id="subject">Subject</div>
-                        </td>
-                        <td>
-                            <div id="category">Category</div>
-                        </td>
-                        <td>
-                            <div id="assignee">Assignee</div>
-                        </td>
-                        <td>
-                            <div id="priority">Priority</div>
-                        </td>
-                        <td>
-                            <div id="status">Status</div>
-                        </td>
-                        <td>
-                            <div id="comment"></div>
-                        </td>
-                        <td>
-                            <button>Edit</button>
-                        </td>
-                        <td>
-                            <button>Delete</button>
-                        </td>
-                    </tr>
+                <tr>
+                    <td>
+                        <div id="id">2</div>
+                    </td>
+                    <td>
+                        <div id="subject">Subject</div>
+                    </td>
+                    <td>
+                        <div id="category">Category</div>
+                    </td>
+                    <td>
+                        <div id="assignee">Assignee</div>
+                    </td>
+                    <td>
+                        <div id="priority">Priority</div>
+                    </td>
+                    <td>
+                        <div id="status">Status</div>
+                    </td>
+                    <td>
+                        <div id="comment"></div>
+                    </td>
+                    <td>
+                        <button onclick="edit()">Edit</button>
+                    </td>
+                    <td>
+                        <button onclick="remove()">Delete</button>
+                    </td>
+                </tr>
 
 
-                    <tr>
-                        <td>
-                            <div id="id">4</div>
-                        </td>
-                        <td>
-                            <div id="subject">Subject</div>
-                        </td>
-                        <td>
-                            <div id="category">Category</div>
-                        </td>
-                        <td>
-                            <div id="assignee">Assignee</div>
-                        </td>
-                        <td>
-                            <div id="priority">Priority</div>
-                        </td>
-                        <td>
-                            <div id="status">Status</div>
-                        </td>
-                        <td>
-                            <div id="comment"></div>
-                        </td>
-                        <td>
-                            <button>Edit</button>
-                        </td>
-                        <td>
-                            <button>Delete</button>
-                        </td>
-                    </tr>
+                <tr>
+                    <td>
+                        <div id="id">3</div>
+                    </td>
+                    <td>
+                        <div id="subject">Subject</div>
+                    </td>
+                    <td>
+                        <div id="category">Category</div>
+                    </td>
+                    <td>
+                        <div id="assignee">Assignee</div>
+                    </td>
+                    <td>
+                        <div id="priority">Priority</div>
+                    </td>
+                    <td>
+                        <div id="status">Status</div>
+                    </td>
+                    <td>
+                        <div id="comment"></div>
+                    </td>
+                    <td>
+                        <button onclick="edit()">Edit</button>
+                    </td>
+                    <td>
+                        <button onclick="remove()">Delete</button>
+                    </td>
+                </tr>
 
 
-                    <tr>
-                        <td>
-                            <div id="id">5</div>
-                        </td>
-                        <td>
-                            <div id="subject">Subject</div>
-                        </td>
-                        <td>
-                            <div id="category">Category</div>
-                        </td>
-                        <td>
-                            <div id="assignee">Assignee</div>
-                        </td>
-                        <td>
-                            <div id="priority">Priority</div>
-                        </td>
-                        <td>
-                            <div id="status">Status</div>
-                        </td>
-                        <td>
-                            <div id="comment"></div>
-                        </td>
-                        <td>
-                            <button>Edit</button>
-                        </td>
-                        <td>
-                            <button>Delete</button>
-                        </td>
-                    </tr>
+                <tr>
+                    <td>
+                        <div id="id">4</div>
+                    </td>
+                    <td>
+                        <div id="subject">Subject</div>
+                    </td>
+                    <td>
+                        <div id="category">Category</div>
+                    </td>
+                    <td>
+                        <div id="assignee">Assignee</div>
+                    </td>
+                    <td>
+                        <div id="priority">Priority</div>
+                    </td>
+                    <td>
+                        <div id="status">Status</div>
+                    </td>
+                    <td>
+                        <div id="comment"></div>
+                    </td>
+                    <td>
+                        <button onclick="edit()">Edit</button>
+                    </td>
+                    <td>
+                        <button onclick="remove()">Delete</button>
+                    </td>
+                </tr>
 
 
-                    <tr>
-                        <td>
-                            <div id="id">6</div>
-                        </td>
-                        <td>
-                            <div id="subject">Subject</div>
-                        </td>
-                        <td>
-                            <div id="category">Category</div>
-                        </td>
-                        <td>
-                            <div id="assignee">Assignee</div>
-                        </td>
-                        <td>
-                            <div id="priority">Priority</div>
-                        </td>
-                        <td>
-                            <div id="status">Status</div>
-                        </td>
-                        <td>
-                            <div id="comment"></div>
-                        </td>
-                        <td>
-                            <button>Edit</button>
-                        </td>
-                        <td>
-                            <button>Delete</button>
-                        </td>
-                    </tr>
+                <tr>
+                    <td>
+                        <div id="id">5</div>
+                    </td>
+                    <td>
+                        <div id="subject">Subject</div>
+                    </td>
+                    <td>
+                        <div id="category">Category</div>
+                    </td>
+                    <td>
+                        <div id="assignee">Assignee</div>
+                    </td>
+                    <td>
+                        <div id="priority">Priority</div>
+                    </td>
+                    <td>
+                        <div id="status">Status</div>
+                    </td>
+                    <td>
+                        <div id="comment"></div>
+                    </td>
+                    <td>
+                        <button onclick="edit()">Edit</button>
+                    </td>
+                    <td>
+                        <button onclick="remove()">Delete</button>
+                    </td>
+                </tr>
 
 
-                    <tr>
-                        <td>
-                            <div id="id">7</div>
-                        </td>
-                        <td>
-                            <div id="subject">Subject</div>
-                        </td>
-                        <td>
-                            <div id="category">Category</div>
-                        </td>
-                        <td>
-                            <div id="assignee">Assignee</div>
-                        </td>
-                        <td>
-                            <div id="priority">Priority</div>
-                        </td>
-                        <td>
-                            <div id="status">Status</div>
-                        </td>
-                        <td>
-                            <div id="comment"></div>
-                        </td>
-                        <td>
-                            <button>Edit</button>
-                        </td>
-                        <td>
-                            <button>Delete</button>
-                        </td>
-                    </tr>
+                <tr>
+                    <td>
+                        <div id="id">6</div>
+                    </td>
+                    <td>
+                        <div id="subject">Subject</div>
+                    </td>
+                    <td>
+                        <div id="category">Category</div>
+                    </td>
+                    <td>
+                        <div id="assignee">Assignee</div>
+                    </td>
+                    <td>
+                        <div id="priority">Priority</div>
+                    </td>
+                    <td>
+                        <div id="status">Status</div>
+                    </td>
+                    <td>
+                        <div id="comment"></div>
+                    </td>
+                    <td>
+                        <button onclick="edit()">Edit</button>
+                    </td>
+                    <td>
+                        <button onclick="remove()">Delete</button>
+                    </td>
+                </tr>
 
 
-                    <tr>
-                        <td>
-                            <div id="id">8</div>
-                        </td>
-                        <td>
-                            <div id="subject">Subject</div>
-                        </td>
-                        <td>
-                            <div id="category">Category</div>
-                        </td>
-                        <td>
-                            <div id="assignee">Assignee</div>
-                        </td>
-                        <td>
-                            <div id="priority">Priority</div>
-                        </td>
-                        <td>
-                            <div id="status">Status</div>
-                        </td>
-                        <td>
-                            <div id="comment"></div>
-                        </td>
-                        <td>
-                            <button>Edit</button>
-                        </td>
-                        <td>
-                            <button>Delete</button>
-                        </td>
-                    </tr>
+                <tr>
+                    <td>
+                        <div id="id">7</div>
+                    </td>
+                    <td>
+                        <div id="subject">Subject</div>
+                    </td>
+                    <td>
+                        <div id="category">Category</div>
+                    </td>
+                    <td>
+                        <div id="assignee">Assignee</div>
+                    </td>
+                    <td>
+                        <div id="priority">Priority</div>
+                    </td>
+                    <td>
+                        <div id="status">Status</div>
+                    </td>
+                    <td>
+                        <div id="comment"></div>
+                    </td>
+                    <td>
+                        <button onclick="edit()">Edit</button>
+                    </td>
+                    <td>
+                        <button onclick="remove()">Delete</button>
+                    </td>
+                </tr>
 
 
-                    <tr>
-                        <td>
-                            <div id="id">9</div>
-                        </td>
-                        <td>
-                            <div id="subject">Subject</div>
-                        </td>
-                        <td>
-                            <div id="category">Category</div>
-                        </td>
-                        <td>
-                            <div id="assignee">Assignee</div>
-                        </td>
-                        <td>
-                            <div id="priority">Priority</div>
-                        </td>
-                        <td>
-                            <div id="status">Status</div>
-                        </td>
-                        <td>
-                            <div id="comment"></div>
-                        </td>
-                        <td>
-                            <button>Edit</button>
-                        </td>
-                        <td>
-                            <button>Delete</button>
-                        </td>
-                    </tr>
+                <tr>
+                    <td>
+                        <div id="id">8</div>
+                    </td>
+                    <td>
+                        <div id="subject">Subject</div>
+                    </td>
+                    <td>
+                        <div id="category">Category</div>
+                    </td>
+                    <td>
+                        <div id="assignee">Assignee</div>
+                    </td>
+                    <td>
+                        <div id="priority">Priority</div>
+                    </td>
+                    <td>
+                        <div id="status">Status</div>
+                    </td>
+                    <td>
+                        <div id="comment"></div>
+                    </td>
+                    <td>
+                        <button onclick="edit()">Edit</button>
+                    </td>
+                    <td>
+                        <button onclick="remove()">Delete</button>
+                    </td>
+                </tr>
 
 
-                    <tr>
-                        <td>
-                            <div id="id">10</div>
-                        </td>
-                        <td>
-                            <div id="subject">Subject</div>
-                        </td>
-                        <td>
-                            <div id="category">Category</div>
-                        </td>
-                        <td>
-                            <div id="assignee">Assignee</div>
-                        </td>
-                        <td>
-                            <div id="priority">Priority</div>
-                        </td>
-                        <td>
-                            <div id="status">Status</div>
-                        </td>
-                        <td>
-                            <div id="comment"></div>
-                        </td>
-                        <td>
-                            <button>Edit</button>
-                        </td>
-                        <td>
-                            <button>Delete</button>
-                        </td>
-                    </tr>
+                <tr>
+                    <td>
+                        <div id="id">9</div>
+                    </td>
+                    <td>
+                        <div id="subject">Subject</div>
+                    </td>
+                    <td>
+                        <div id="category">Category</div>
+                    </td>
+                    <td>
+                        <div id="assignee">Assignee</div>
+                    </td>
+                    <td>
+                        <div id="priority">Priority</div>
+                    </td>
+                    <td>
+                        <div id="status">Status</div>
+                    </td>
+                    <td>
+                        <div id="comment"></div>
+                    </td>
+                    <td>
+                        <button onclick="edit()">Edit</button>
+                    </td>
+                    <td>
+                        <button onclick="remove()">Delete</button>
+                    </td>
+                </tr>
 
 
-                    <tr>
-                        <td>
-                            <div id="id">11</div>
-                        </td>
-                        <td>
-                            <div id="subject">Subject</div>
-                        </td>
-                        <td>
-                            <div id="category">Category</div>
-                        </td>
-                        <td>
-                            <div id="assignee">Assignee</div>
-                        </td>
-                        <td>
-                            <div id="priority">Priority</div>
-                        </td>
-                        <td>
-                            <div id="status">Status</div>
-                        </td>
-                        <td>
-                            <div id="comment"></div>
-                        </td>
-                        <td>
-                            <button>Edit</button>
-                        </td>
-                        <td>
-                            <button>Delete</button>
-                        </td>
-                    </tr>
+                <tr>
+                    <td>
+                        <div id="id">10</div>
+                    </td>
+                    <td>
+                        <div id="subject">Subject</div>
+                    </td>
+                    <td>
+                        <div id="category">Category</div>
+                    </td>
+                    <td>
+                        <div id="assignee">Assignee</div>
+                    </td>
+                    <td>
+                        <div id="priority">Priority</div>
+                    </td>
+                    <td>
+                        <div id="status">Status</div>
+                    </td>
+                    <td>
+                        <div id="comment"></div>
+                    </td>
+                    <td>
+                        <button onclick="edit()">Edit</button>
+                    </td>
+                    <td>
+                        <button onclick="remove()">Delete</button>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <div id="id">11</div>
+                    </td>
+                    <td>
+                        <div id="subject">Subject</div>
+                    </td>
+                    <td>
+                        <div id="category">Category</div>
+                    </td>
+                    <td>
+                        <div id="assignee">Assignee</div>
+                    </td>
+                    <td>
+                        <div id="priority">Priority</div>
+                    </td>
+                    <td>
+                        <div id="status">Status</div>
+                    </td>
+                    <td>
+                        <div id="comment"></div>
+                    </td>
+                    <td>
+                        <button onclick="edit()">Edit</button>
+                    </td>
+                    <td>
+                        <button onclick="remove()">Delete</button>
+                    </td>
+                </tr>
 
 
 
 
-                </table><br><br>
+            </table><br><br>
 
-                <button id="button">Add New Ticket</button>
-        </body>
-
+            <button id="add">Add New Ticket</button>
+            <button id="help">Help</button>
+            <script src="/app.js"></script>
 </body>
 
 </html>
