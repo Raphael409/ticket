@@ -3,7 +3,9 @@
   font-family: sans-serif;
   margin: 100px;
 }
-.label {
-  display: inline-block;
-  text-align: justify;
+.form {
+  display: block;
+}
+h2 {
+  color: rgb(218, 89, 15);
 }

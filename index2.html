@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT serveries ticket</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="title">
+            <h2>IT serveries ticket</h2>
+        </div>
+        <div class="search">
+            <form action="searching">
+                <input type="text" placeholder="Search Ticket by Id"><br><br>
+            </form>
+        </div>
+        <form id="ticket">
+            <label for="id">Ticket id</label><br>
+            <input type="text" id="fname" name="id" required><br><br>
+            <label for="subject">Subject</label><br>
+            <input type="text" id="fname" name="subject" required><br><br>
+            <label for="category">Category</label><br>
+            <select name="Category">
+                <option value="">Select a Category</option>
+                <option value="">Billing</option>
+                <option value="">Marketing</option>
+                <option value="">Developing</option>
+            </select><br><br>
+            <label for="assignee">Assignee</label><br>
+            <input type="text" id="fname" name="assignee" required><br><br>
+            <label for="priority">Priority</label><br>
+            <select name="Priority">
+                <option value="">Select Priority</option>
+                <option value="">Low</option>
+                <option value="">Medium</option>
+                <option value="">High</option>
+            </select><br><br>
+            <label for="status">Status</label><br>
+            <select name="Status">
+                <option value="">Chose Status</option>
+                <option value="">Open</option>
+                <option value="">Solved</option>
+                <option value="">Close</option>
+            </select><br><br>
+            <label for="comment">comment</label><br>
+            <input type="text" id="fname" name="comment"><br><br>
+            <div class="button">
+                <button>Add Ticket</button>
+                <button>Cancel</button>
+                <button>Save</button>
+            </div>
+        </form>
+
+
+
+    </div>
+
+    <script src="/app"></script>
+</body>
+
+</html>
