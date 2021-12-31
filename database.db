@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <link rel="stylesheet" href="/index.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IT serveries ticket</title>
-</head>
-<title>IT serveries ticket</title>
-
-<body>
-    <div class="mainpage">
-
-
-        <div class="align">
-            <h1>IT serveries ticket</h1>
-        </div>
-
-
-        <div class="cells">
-            <table align="Center">
-                <tr>
-                    <td><b>Ticket ID</b> </td>
-                    <td><b>Subject</b> </td>
-                    <td><b>Category</b> </td>
-                    <td><b>Assignee</b> </td>
-                    <td><b>Priority</b> </td>
-                    <td><b>Status</b> </td>
-                    <td><b>Comment</b> </td>
-                </tr>
-
-                <tr>
+   <tr>
                     <td>
                         <div id="id">1</div>
                     </td>
@@ -375,11 +342,3 @@
 
 
             </table><br><br>
-
-            <a href="\index2.html"><button onclick="add()">Add New Ticket</button></a>
-
-            <button id="help" onclick="help()">Help</button>
-            <script src="dist/app.js"></script>
-</body>
-
-</html>

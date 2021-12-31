@@ -1,24 +1,27 @@
-// import './index.css';
+import Add from "./add"
+import Edit from "./edit"
+import Record from "./record"
+import useFetch from "./useFetch"
 
-// class ticket{
-//   id : number;
-//   subject : string;
-//   Category
-// }
 
-// const form: HTMLFormElement = document.querySelector('#ticket');
-
-// // function for deleting a ticket
-// function remove(record) {
-//   alert("Do you want to delete the record?")
-// }
-// // editing a ticket record
-// function edit(record){
+function Remove(){
+  const {
+    tickets: ticket, error
+  } = useFetch('http://localhost:8000/tickets')
+}
+const remove = () => {
+  alert("Do you want to delete the record?")
   
-// }
-// // adding a new ticket record
-// function addNew(record) {
-//   return "Do you want to add a new ticket?"
-// }
-let message: string = 'Hello World';
-console.log(message);
+}
+
+const edit = () =>{
+  alert ("Do you want to edit the ticket details?")
+}
+
+const add = () =>{
+  alert ("Add new ticket")
+}
+
+const help = () =>{
+  alert ("Help page")
+}
